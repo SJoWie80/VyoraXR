@@ -193,3 +193,5 @@ This repository contains public release APKs, documentation, store assets and re
 ## Support
 
 Use [GitHub Issues](../../issues) for reproducible bugs and feature requests. Include the app version, Quest model and a short description, but never include credentials or private URLs.
+
+See the combined [release notes](RELEASE_NOTES.md) for the public alpha history.
