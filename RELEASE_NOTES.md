@@ -2,6 +2,16 @@
 
 This document combines the public alpha release notes. VyoraXR is alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha14
+
+- Removed the retired Legacy Bridge source from the Quest and Android TV interface.
+- Kept Stash Direct, PLAYA, local/LAN sources and Intiface Central available.
+- Restored Quest-specific focus and native Oculus behavior after the Android TV split.
+- Improved TV reconnect handling without repeatedly opening focus-stealing windows.
+- Added capability-aware Intiface output for vibration and linear/position actuators.
+- Added TV seek/intensity feedback overlays and accelerated D-pad seeking.
+- Preserved the existing shared signing and local app data during release installation.
+
 ## 0.1.0-alpha13
 
 - Added the VyoraTV Android TV edition with dedicated 2D library branding and layout.

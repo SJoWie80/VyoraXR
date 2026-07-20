@@ -36,7 +36,7 @@ Both editions browse personal libraries, compatible websites and local/network m
 
 ### Stash Direct
 
-Connect directly to your Stash server using its URL, username and password or API key. Stash Direct supports scenes, studios, performers, tags, galleries, images, favorites and funscripts. The legacy bridge is not required and is kept only as an optional compatibility fallback. See the [official Stash documentation](https://docs.stashapp.cc/) and [Stash GitHub project](https://github.com/stashapp/stash).
+Connect directly to your Stash server using its URL, username and password or API key. Stash Direct supports scenes, studios, performers, tags, galleries, images, favorites and funscripts. See the [official Stash documentation](https://docs.stashapp.cc/) and [Stash GitHub project](https://github.com/stashapp/stash).
 
 ### PLAYA VR Websites
 
@@ -157,7 +157,6 @@ The library remains windowed by default. Select VR mode from the player controls
 - **RedTube enabled:** show or hide RedTube
 - **Eporner enabled:** show or hide Eporner
 - **ImageFap enabled:** show or hide ImageFap
-- **Legacy bridge enabled:** keep the old bridge source available temporarily
 - **Start with last source:** reopen the last selected source at startup
 - **Clear image cache:** remove locally cached thumbnails and images
 
