@@ -8,13 +8,15 @@
 
 <p align="center">
   <a href="../../releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/Sjowie/VyoraXR-Releases?include_prereleases&label=latest%20alpha"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Meta%20Quest-bd36ff">
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-Meta%20Quest%20%7C%20Android%20TV-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>
 
-# VyoraXR
+# VyoraXR / VyoraTV
 
-VyoraXR keeps the main library interface windowed and controller-friendly, while offering an immersive VR player for 2D, 180-degree, 360-degree and stereoscopic media.
+VyoraXR is the Meta Quest edition with a windowed library and immersive player. VyoraTV is the Android TV edition: a focused 2D media library controlled with a TV remote or gamepad.
+
+Both editions browse personal libraries, compatible websites and local/network media from one controller-friendly interface.
 
 ## Highlights
 
@@ -42,7 +44,7 @@ Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compat
 
 ### Online Sources
 
-- **Chaturbate:** live rooms using the configured affiliate integration, search, gender filters and viewer sorting
+- **Chaturbate:** live rooms with search, gender filters and viewer sorting
 - **Stripchat:** featured and category-based live rooms
 - **Eporner:** video browsing, search, sorting, pagination and galleries where available
 - **RedTube:** video browsing, categories, search, sorting and pagination
@@ -51,9 +53,8 @@ Add a website URL and VyoraXR checks whether it exposes the PLAYA VR API. Compat
 ## Installation
 
 1. Download the latest alpha APK from [Releases](../../releases).
-2. Enable Developer Mode on the Quest.
-3. Install the APK using ADB or another trusted sideloading tool.
-4. Launch VyoraXR and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
+2. Install the Quest APK on a Meta Quest, or install the TV APK on an Android TV device/emulator.
+3. Launch the app and configure a source in **Settings > Manage Sources**. For Quest developer setup, see the [Meta Quest developer documentation](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/).
 
 Example ADB command:
 
@@ -152,7 +153,7 @@ The library remains windowed by default. Select VR mode from the player controls
 - **Toy Control:** Intiface Central server address, connection and separate control popup
 - **Auto-connect Intiface Central:** connect automatically at startup; disabled by default
 - **Language:** English, Nederlands, Deutsch and Français
-- **Live Cams enabled:** show or hide Chaturbate
+- **Live Cams enabled:** show or hide live sources
 - **RedTube enabled:** show or hide RedTube
 - **Eporner enabled:** show or hide Eporner
 - **ImageFap enabled:** show or hide ImageFap

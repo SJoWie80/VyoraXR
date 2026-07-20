@@ -2,6 +2,13 @@
 
 This document combines the public alpha release notes. VyoraXR is alpha software; features and compatibility may change between releases.
 
+## 0.1.0-alpha13
+
+- Added the VyoraTV Android TV edition with dedicated 2D library branding and layout.
+- Added TV-focused D-pad navigation and consistent focus highlights.
+- Added auto-hiding TV playback controls with seek support.
+- Refined shared Meta Quest and TV source presentation.
+
 ## 0.1.0-alpha12
 
 ### Toy and funscript control
