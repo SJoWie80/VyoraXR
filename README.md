@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Latest alpha release" src="https://img.shields.io/github/v/release/SJoWie80/VyoraXR?include_prereleases&display_name=tag&label=latest%20alpha&cacheSeconds=300"></a>
+  <a href="../../releases/latest"><img alt="Latest alpha release" src="https://img.shields.io/github/v/release/SJoWie80/Vyora?include_prereleases&display_name=tag&label=latest%20alpha&cacheSeconds=300"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-Meta%20Quest%20%7C%20Android%20TV-bd36ff">
   <img alt="Status" src="https://img.shields.io/badge/status-alpha-f15bb5">
 </p>

@@ -1,6 +1,30 @@
-# VyoraXR Release Notes
+# Vyora Release Notes
 
-This document combines the public alpha release notes. VyoraXR is alpha software; features and compatibility may change between releases.
+This document combines the public alpha release notes. VyoraXR and VyoraTV are alpha software; features and compatibility may change between releases.
+
+## 0.1.0-alpha16
+
+- Redesigned VyoraTV around a modern two-panel library with dedicated Home and Online views.
+- Added Home rows for recent Stash scenes and currently active live rooms.
+- Improved source branding, media-card sizing and thumbnail aspect-ratio handling.
+- Refined D-pad focus, Back navigation and focus restoration across scenes, actors, studios and galleries.
+- Added and repaired pagination for Stash scenes and studios, including reliable thumbnail reloads between pages.
+- Improved gallery navigation, photo selection, gallery titles and fullscreen image viewing.
+- Moved online-source controls into Manage Sources and simplified the main Settings screen.
+- Added GitHub update checking, downloading and installer handoff for VyoraTV; VyoraXR links to the release page.
+- Updated release checks and public documentation for the renamed `SJoWie80/Vyora` repository.
+- Made the VyoraTV player title bar hide and return together with the playback controls.
+
+## 0.1.0-alpha15
+
+- Added Android TV screenshots to the public documentation with scene thumbnails anonymized.
+- Improved TV D-pad navigation through scene, studio, actor, tag and gallery grids.
+- Restored selected-tile focus after Back navigation and content reloads.
+- Added compact loading feedback for TV scenes and directories.
+- Improved TV dialog focus and keyboard behavior.
+- Adjusted TV side-panel sizing so the center library keeps the available space.
+- Improved Stash gallery title mapping when optional fields are empty.
+- Added the Android TV launcher banner and VyoraTV branding.
 
 ## 0.1.0-alpha14
 
@@ -136,13 +160,3 @@ This alpha expands online sources and improves navigation, gallery viewing and p
 
 - Eporner's official API currently exposes videos, but no supported photo-gallery endpoint.
 - VyoraXR does not host media. Users configure and access their own compatible sources.
-## 0.1.0-alpha15
-
-- Added Android TV screenshots to the public documentation with scene thumbnails anonymized.
-- Improved TV D-pad navigation through scene, studio, actor, tag and gallery grids.
-- Restored selected-tile focus after Back navigation and content reloads.
-- Added compact loading feedback for TV scenes and directories.
-- Improved TV dialog focus and keyboard behavior.
-- Adjusted TV side-panel sizing so the center library keeps the available space.
-- Improved Stash gallery title mapping when optional fields are empty.
-- Added the Android TV launcher banner and VyoraTV branding.
